@@ -6,7 +6,7 @@ import { of } from 'rxjs/observable/of';
 import { MessageService } from './message.service';
 
 @Injectable()
-export class heroService {
+export class HeroService {
 
   getHeroes(): Observable<Hero[]> {
     this.messageService.add('HeroService: fetched heroes');
