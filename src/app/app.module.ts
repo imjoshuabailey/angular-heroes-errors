@@ -23,7 +23,7 @@ import { MessageService } from './message.service';
     FormsModule
   ],
   providers: [
-   
+    HeroService,
     MessageService
     ],
   bootstrap: [AppComponent]
